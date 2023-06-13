@@ -32,7 +32,7 @@ public class Transaction {
     @JoinColumn(name = "Account_id", nullable = false
             , foreignKey = @ForeignKey(name = "FK_Account_ID"))
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private Account book;
+    private Account account;
 
 
 
